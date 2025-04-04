@@ -1,4 +1,10 @@
+import streamlit as st
+import praw
 import pandas as pd
+import nltk
+from nltk.sentiment import SentimentIntensityAnalyzer
+from datetime import datetime
+from transformers import pipeline
 
 nltk.download('vader_lexicon')
 
